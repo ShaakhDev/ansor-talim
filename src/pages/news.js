@@ -7,6 +7,7 @@ export default function News(){
             <h1>
                 news section
             </h1>
+            
         </section>
     )
 }
