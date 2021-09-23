@@ -6,18 +6,19 @@ import Comments from './pages/comments'
 import Gallery from './pages/gallery'
 import ContactUs from './pages/contactUs'
 import Footer from './pages/footer'
-
+import Header from './components/Header'
 function App() {
   return (
     <>
+      <Header />
       <Home />
-      <News/>
-      <Courses/>
-      <Teachers/>
-      <Comments/>
-      <Gallery/>
-      <ContactUs/>
-      <Footer/>
+      <News />
+      <Courses />
+      <Teachers />
+      <Comments />
+      <Gallery />
+      <ContactUs />
+      <Footer />
     </>
   );
 }
