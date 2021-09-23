@@ -1,0 +1,32 @@
+h1 {
+	font-size: 58px;
+	font-weight: bolder;
+}
+h2 {
+	font-size: 44px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 33px;
+	font-weight: lighter;
+}
+h4 {
+	font-size: 25px;
+	font-weight: bold;
+}
+h5 {
+	font-size: 25px;
+	font-weight: normal;
+}
+p {
+	font-size: 19px;
+}
+.button {
+	padding: 0.7rem 2rem;
+	border-radius: 25px;
+	border: none;
+	background: #043353;
+	color: #fff;
+	font-size: 19px;
+	cursor: pointer;
+}

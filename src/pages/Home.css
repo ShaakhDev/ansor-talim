@@ -1,0 +1,25 @@
+section.home {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0 calc((100vw - 85vw) / 2);
+}
+.home .home__box {
+	max-width: 1400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.home .home__box .home__box_text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 50%;
+}
+.home__box_text-content p {
+	padding: 2rem 0;
+	font-weight: 500;
+	font-size: 25px;
+	color: #043353;
+}

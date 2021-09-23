@@ -1,93 +1,12 @@
-:root {
-	--color--1: #e54546;
-	--color--2: #043353;
-}
-
 body {
 	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
-	padding: 0 120px;
-	position: relative;
-}
-#root {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-h1 {
-	font-size: 58px;
-	font-weight: bolder;
-}
-h2 {
-	font-size: 44px;
-	font-weight: bold;
-}
-h3 {
-	font-size: 33px;
-	font-weight: normal;
-}
-h4 {
-	font-size: 25px;
-	font-weight: bold;
-}
-h5 {
-	font-size: 25px;
-	font-weight: normal;
-}
-a {
-	text-decoration: none;
-}
-.button {
-	padding: 0.7rem 2rem;
-	color: #fff;
-	background: var(--color--2);
-	border-radius: 25px;
-	border: none;
-	cursor: pointer;
-}
-/* *************************** Header*************************** */
-.header.fixed {
-	position: fixed;
-	width: 100%;
-	max-width: 1200px;
-}
-.navbar {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	padding: 2rem 0;
-	margin: 0;
-}
-.navbar .navbar__brand {
-	width: 130px;
-	height: 52px;
-	display: flex;
-	justify-content: space-between;
-}
-.navbar .navbar__brand div {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: start;
-	flex-direction: column;
-	justify-content: space-between;
-	font-weight: 600;
-	font-size: 18px;
-}
-.navbar .navbar__brand div p {
-	color: var(--color--2);
-	margin: 0;
-}
-.navbar .navbar__brand div p span {
-	color: var(--color--1);
-}
-
-.navbar .navbar__nav ul li {
-	display: inline-block;
-	padding: 0 20px;
-}
-.navbar .navbar__nav ul li a {
-	color: var(--color--2);
-}
-/* ***************************** HOME *********************************** */
-.home {
-	display: flex;
 }
