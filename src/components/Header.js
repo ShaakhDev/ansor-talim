@@ -13,7 +13,7 @@ export default function Header() {
                     <div className="navbar__brand">
                         <picture>
                             {/* <source type="image/png" media="(max-width:600px)" srcSet={Logo2x} /> */}
-                            <img src={Logo} srcSet="Logo2x 2x" alt="logo" />
+                            <img src={Logo} alt="logo" />
                         </picture>
                         <div>
                             <p><span> ANSOR</span><br />TA'LIM </p>
