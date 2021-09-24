@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './components/Header'
-import Courses from "./pages/courses";
+
+import News from './pages/news'
 import Home from './pages/home';
 import './App.css'
 
@@ -9,7 +10,7 @@ export default function App() {
     <div>
       <Header />
       <Home />
-      <Courses />
+      <News />
 
     </div>
   )

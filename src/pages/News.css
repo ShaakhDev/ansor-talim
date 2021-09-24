@@ -1,0 +1,27 @@
+section.news {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10vh calc((100vw - 85vw) / 2);
+}
+.news .news__box {
+	display: flex;
+	flex-direction: column;
+	max-width: 1400px;
+	width: 100%;
+}
+.news__box .news__box-heading > * {
+	display: inline-block;
+}
+.news__box .news__box-heading {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+.news .news__box .card__row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}

@@ -4,7 +4,7 @@ h1 {
 }
 h2 {
 	font-size: 44px;
-	font-weight: bold;
+	font-weight: 500;
 }
 h3 {
 	font-size: 33px;
@@ -22,7 +22,7 @@ p {
 	font-size: 19px;
 }
 .button {
-	padding: 0.7rem 2rem;
+	padding: 0.5rem 2rem;
 	border-radius: 25px;
 	border: none;
 	background: #043353;
