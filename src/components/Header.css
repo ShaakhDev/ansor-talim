@@ -7,7 +7,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: start;
-	padding: 2rem calc((100vw - 85vw) / 2);
+	padding: 2rem calc((100vw - 80vw) / 2);
 }
 .navbar {
 	max-width: 1400px;
@@ -64,10 +64,10 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 120%;
+		width: 140%;
 		height: 60vh;
 		position: absolute;
-		left: -10%;
+		left: -20%;
 		top: -70vh;
 		transition: all 0.3s ease;
 		line-height: 40px;
@@ -79,9 +79,9 @@
 	}
 	.navbar__nav-items.active {
 		position: absolute;
-		left: -10%;
+		left: -20%;
 		top: -10vh;
-		width: 120%;
+		width: 140%;
 		height: 60vh;
 	}
 }

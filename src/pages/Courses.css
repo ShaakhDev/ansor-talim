@@ -1,0 +1,67 @@
+section.courses {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10vh calc((100vw - 80vw) / 2);
+}
+.courses .courses__box {
+	display: flex;
+	flex-direction: column;
+	max-width: 1400px;
+	width: 100%;
+}
+.courses__box .courses__box-heading > * {
+	display: inline-block;
+}
+.courses__box-heading span {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #043353;
+}
+.courses__box .courses__box-heading {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+.courses .courses__box .courses__card-row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	transition: all 0.7s ease;
+}
+.courses__card-row .card .card__content {
+	padding: 1rem 1.5rem;
+}
+.card {
+	margin-bottom: 2rem;
+}
+.card .card__content .card__course-name {
+	font-weight: 500;
+	color: #043353;
+}
+.card .card__content .card__coach {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding: 1rem 0;
+}
+.card__content .card__coach img {
+	width: 36px;
+	margin-right: 1rem;
+}
+
+.card__content .card__coach .coach__name {
+	color: #64696c;
+}
+.card__content .price {
+	font-size: 25px;
+	font-weight: 500;
+	color: #043353;
+	padding: 1.5rem 0;
+}
+.card__content button {
+	width: 100%;
+}
