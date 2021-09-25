@@ -11,15 +11,15 @@ export default function Courses() {
     const Card = () => {
         return CoursesData.slice(0, click ? 6 : 3).map(item => {
             return (
-                <div className="card">
+                <div key={item.id} className="card">
                     <div className="card__img">
                         <img src={item.img} alt="card-img" />
                     </div>
                     <div className="card__content">
                         <h3 className="card__course-name">{item.course}</h3>
-                        <div className="card__coach">
-                            <img src={item.coachImg} alt="coach-img" />
-                            <p className="coach__name">{item.coach}</p>
+                        <div className="card__tutor">
+                            <img src={item.tutorImg} alt="tutor-img" />
+                            <p className="tutor__name">{item.tutor}</p>
                         </div>
                         <p className="card__title">{item.title}</p>
                         <h5 className="price">{item.price} </h5>

@@ -5,10 +5,12 @@ import NewsImg3 from '../assets/images1x/news3.webp'
 import CoursesImg1 from '../assets/images1x/courses-img1.webp'
 import CoursesImg2 from '../assets/images1x/courses-img2.webp'
 import CoursesImg3 from '../assets/images1x/courses-img3.webp'
-import Coach1 from '../assets/images1x/circle1.webp'
-import Coach2 from '../assets/images1x/circle2.webp'
-import Coach3 from '../assets/images1x/circle3.webp'
-
+import Tutor1 from '../assets/images1x/circle1.webp'
+import Tutor2 from '../assets/images1x/circle2.webp'
+import Tutor3 from '../assets/images1x/circle3.webp'
+import Comment1 from '../assets/images1x/comment1.webp'
+import Comment2 from '../assets/images1x/comment2.webp'
+import Comment3 from '../assets/images1x/comment3.webp'
 // fetch(url)
 // .then(response=>response.json)
 // .then(data=>console.log(data))
@@ -55,47 +57,102 @@ export const CardData = [
 
 export const CoursesData = [
     {
+        id: 1,
         img: CoursesImg1,
         course: "Matematika",
-        coachImg: Coach1,
-        coach: "Mo'minov Otabek",
+        tutorImg: Tutor1,
+        tutor: "Mo'minov Otabek",
         title: "0 dan boshlab eng mukammal misol va masalalargacha o'rganib chiqamiz",
         price: "280 000 so'm"
     }, {
+        id: 2,
         img: CoursesImg2,
         course: "Fizika",
-        coachImg: Coach2,
-        coach: "Rasulov Jasur",
+        tutorImg: Tutor2,
+        tutor: "Rasulov Jasur",
         title: "0 dan boshlab eng mukammal misol va masalalargacha o'rganib chiqamiz",
         price: "300 000 so'm"
     }, {
+        id: 3,
         img: CoursesImg3,
         course: "Mental arifmetika",
-        coachImg: Coach3,
-        coach: "Inoyatov Og'abek",
+        tutorImg: Tutor3,
+        tutor: "Inoyatov Og'abek",
         title: "0 dan boshlab eng mukammal misol va masalalargacha o'rganib chiqamiz",
         price: "199 000 so'm"
     }, {
+        id: 4,
         img: CoursesImg2,
         course: "Matematika",
-        coachImg: Coach2,
-        coach: "Mo'minov Otabek",
+        tutorImg: Tutor2,
+        tutor: "Mo'minov Otabek",
         title: "0 dan boshlab eng mukammal misol va masalalargacha o'rganib chiqamiz",
         price: "280 000 so'm"
     }, {
+        id: 5,
         img: CoursesImg3,
         course: "Mental arifmetika",
-        coachImg: Coach3,
-        coach: "Inoyatov Og'abek",
+        tutorImg: Tutor3,
+        tutor: "Inoyatov Og'abek",
         title: "0 dan boshlab eng mukammal misol va masalalargacha o'rganib chiqamiz",
         price: "199 000 so'm"
     }, {
+        id: 6,
         img: CoursesImg1,
         course: "Matematika",
-        coachImg: Coach1,
-        coach: "Mo'minov Otabek",
+        tutorImg: Tutor1,
+        tutor: "Mo'minov Otabek",
         title: "0 dan boshlab eng mukammal misol va masalalargacha o'rganib chiqamiz",
         price: "280 000 so'm"
     },
 
+]
+
+export const TeachersData = [
+    {
+        id: 1,
+        name: "Mo'minov Otabek",
+        img: Tutor1,
+        speciality: "Matematika fani o'qituvchisi",
+        about: "8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirdlariga ega"
+    },
+    {
+        id: 2,
+        name: "Rasulov Jasurbek",
+        img: Tutor2,
+        speciality: "Fizika fani o'qituvchisi",
+        about: "8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirdlariga ega"
+    },
+    {
+        id: 3,
+        name: "Inoyatov Og'abek",
+        img: Tutor3,
+        speciality: "Mental arifmetika o'qituvchisi",
+        about: "8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirdlariga ega"
+    }
+]
+
+
+export const CommentsData = [
+
+    {
+        id: 1,
+        img: Comment1,
+        name: "Sabina Halilova",
+        speciality: "Senior backend dasturchi",
+        comment: "Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus."
+    },
+    {
+        id: 2,
+        img: Comment2,
+        name: "Mirvohid Saidahmatov",
+        speciality: "Senior frontend dasturchi",
+        comment: "Facilisis a lectus augue sit. Placerat bibendum amet quis elementum,netus. Ut sit proin cras pharetra. Nunc proin et."
+    }, {
+        id: 3,
+        img: Comment3,
+        name: "Azam Muhammadyor",
+        speciality: "Senior frontend dasturchi",
+        comment: "Cursus odio dapibus mauris nibh. Ultricies non in commodo ornare tellus diam. Nunc mi non ac morbi magnis tincidunt."
+    }
 ]

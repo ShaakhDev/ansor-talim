@@ -5,6 +5,7 @@ h1 {
 h2 {
 	font-size: 44px;
 	font-weight: 500;
+	color: #043353;
 }
 h3 {
 	font-size: 33px;
@@ -12,7 +13,7 @@ h3 {
 }
 h4 {
 	font-size: 25px;
-	font-weight: bold;
+	font-weight: 600;
 }
 h5 {
 	font-size: 25px;
@@ -25,7 +26,7 @@ section {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding: 10vh calc((100vw - 80vw) / 2);
+	padding: 7vh calc((100vw - 80vw) / 2);
 }
 .button {
 	padding: 0.6rem 2rem;

@@ -6,7 +6,7 @@
 .header {
 	width: 100%;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	padding: 2rem calc((100vw - 80vw) / 2);
 }
 .navbar {

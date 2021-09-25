@@ -12,7 +12,7 @@ export default function News() {
     const Card = () => {
         return CardData.slice(0, click ? 6 : 3).map(item => {
             return (
-                <div className="card">
+                <div key={item.id} className="card">
                     <div className="card__img">
                         <a href="https://www.texnoman.uz/post/dasturlashni-organishdagi-8-ta-xato.html">
                             <div className="card__img-overlay">
@@ -27,6 +27,7 @@ export default function News() {
             )
         })
     }
+
 
     const CardRow = () => {
         return (
