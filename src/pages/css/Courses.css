@@ -1,6 +1,6 @@
-/* section.courses {
-	padding: 3vh calc((100vw - 80vw) / 2);
-} */
+.courses {
+	position: relative;
+}
 .courses .courses__box {
 	display: flex;
 	flex-direction: column;
@@ -66,4 +66,54 @@
 }
 .card__content button {
 	width: 100%;
+}
+.modal__box {
+	width: 528px;
+	height: 552px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: #fff;
+	align-items: flex-end;
+	transform: translate(-50%, -50%);
+	-webkit-box-shadow: 0px 0px 23px 3px rgba(34, 60, 80, 0.16);
+	-moz-box-shadow: 0px 0px 23px 3px rgba(34, 60, 80, 0.16);
+	box-shadow: 0px 0px 23px 3px rgba(34, 60, 80, 0.16);
+}
+.modal__box form input,
+.modal__box form label {
+	width: 100%;
+	font-size: 25px;
+	line-height: 45px;
+	padding: 2rem 0;
+}
+.modal__box form label {
+	color: #043353;
+	font-size: 25px;
+	font-weight: 400;
+}
+.modal__box form input {
+	border: none;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	outline: none;
+	font-size: 25px;
+	border-bottom: 2px solid #64696c;
+}
+.modal__box form input::placeholder {
+	color: #64696c7c;
+	font-weight: 100;
+	font-style: italic;
+}
+.modal__box button {
+	position: absolute;
+	right: 2rem;
+	bottom: 5rem;
+}
+.d-none {
+	display: none;
 }

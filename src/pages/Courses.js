@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import { CoursesData } from "../services/FetchData";
+import { BsX } from 'react-icons/bs'
 import './css/Courses.css'
+
+
 
 export default function Courses() {
     const [click, setClick] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const handleBtnClick = () => {
+        setIsOpen(true)
+
+    }
     const handleClick = () => {
         setClick(!click);
+
     }
 
     const Card = () => {
@@ -24,7 +33,7 @@ export default function Courses() {
                         <p className="card__title">{item.title}</p>
                         <h5 className="price">{item.price} </h5>
 
-                        <Button value={"Sotib olish"} />
+                        <button onClick={handleBtnClick} className="button">Sotib olish</button>
 
                     </div>
                 </div>
@@ -32,12 +41,22 @@ export default function Courses() {
         })
     }
 
-
-    const Button = ({ value }) => {
+    const Modal = () => {
         return (
-            <button className="button">{value}</button>
+            <div className={isOpen ? "modal__box" : "modal__box d-none"}>
+                <BsX size={35} onClick={() => { setIsOpen(false) }} />
+                <form action="#" method="post">
+                    <label htmlFor="name">Ism va Familiyangizni kiriting: F.I.O.</label>
+                    <input type="text" name="name" placeholder="Bu yerga yozing" />
+                    <label htmlFor="mail">Telefon nomer yoki Emailingizni kiriting</label>
+                    <input type="text" name="mail" placeholder="Bu yerga yozing" />
+                    <button className="button"> Sotib olish</button>
+                </form>
+            </div>
         )
     }
+
+
 
 
     return (
@@ -51,6 +70,8 @@ export default function Courses() {
                     <Card />
                 </div>
             </div>
+            <Modal />
+
         </section>
     )
 }
