@@ -4,7 +4,7 @@ h1 {
 }
 h2 {
 	font-size: 44px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #043353;
 }
 h3 {
@@ -28,6 +28,7 @@ section {
 	justify-content: center;
 	padding: 7vh calc((100vw - 80vw) / 2);
 }
+
 .button {
 	padding: 0.6rem 2rem;
 	border-radius: 25px;

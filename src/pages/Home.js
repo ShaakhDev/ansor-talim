@@ -5,11 +5,7 @@ import HomeImg from '../assets/images1x/home-img.webp'
 
 export default function Home() {
 
-    const Button = ({ home }) => {
-        return (
-            <button className="button">{home}</button>
-        )
-    }
+
 
     return (
         <section id="home" className="home">
@@ -17,14 +13,19 @@ export default function Home() {
                 <div className="home__box_text-content">
                     <h1>Abituriyentlikdan studentlik tomon</h1>
                     <p>Uyda qoling, online ta'lim oling. At massa at dictumst odio sapien tortor auctor sollicitudin. </p>
-                    <div className="div">
-                        <Button home="Kursga a'zo bo'lish" />
+                    <div className="home__button">
+
+                        <button className="button">Kursga a'zo bo'lish</button>
                     </div>
                 </div>
                 <div className="home__box_img">
                     <img src={HomeImg} alt="home-img" />
+                    <div className="circle-overlay">
+
+                    </div>
                 </div>
             </div>
+
         </section>
     )
 }

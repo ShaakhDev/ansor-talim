@@ -5,6 +5,10 @@ import News from './pages/News'
 import Home from './pages/Home';
 import Teachers from './pages/Teachers';
 import Comments from "./pages/Comments";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
+import ContactLocation from "./pages/ContactLocation";
+import Footer from "./pages/Footer";
 import './App.css'
 
 export default function App() {
@@ -16,6 +20,10 @@ export default function App() {
       <Courses />
       <Teachers />
       <Comments />
+      <Gallery />
+      <Contact />
+      <ContactLocation />
+      <Footer />
     </div>
   )
 }

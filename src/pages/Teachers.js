@@ -42,7 +42,7 @@ function Teachers() {
                     <h2>Ustozlar</h2>
                 </div>
                 <Swiper spaceBetween={30} autoplay={{
-                    "delay": 2500,
+                    "delay": 4500,
                     "disableOnInteraction": false
                 }} pagination={{
 

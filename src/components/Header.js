@@ -28,8 +28,8 @@ export default function Header() {
                         <li className="nav__link"><a href="#courses">Kuslar</a></li>
                         <li className="nav__link"><a href="#teachers">Ustozlar</a></li>
                         <li className="nav__link"><a href="#comments">Izohlar</a></li>
-                        <li className="nav__link"><a href="#">Darslardan lavhalar</a></li>
-                        <li className="nav__link"><a href="#">Aloqa</a></li>
+                        <li className="nav__link"><a href="#gallery">Darslardan lavhalar</a></li>
+                        <li className="nav__link"><a href="#contact">Aloqa</a></li>
                     </ul>
                 </div>
             </nav>

@@ -11,6 +11,19 @@ import Tutor3 from '../assets/images1x/circle3.webp'
 import Comment1 from '../assets/images1x/comment1.webp'
 import Comment2 from '../assets/images1x/comment2.webp'
 import Comment3 from '../assets/images1x/comment3.webp'
+import Img1 from '../assets/images1x/img1x_1.webp'
+import Img2 from '../assets/images1x/img1x_2.webp'
+import Img3 from '../assets/images1x/img1x_3.webp'
+import Img4 from '../assets/images1x/img1x_4.webp'
+import Img5 from '../assets/images1x/img1x_5.webp'
+import Img6 from '../assets/images1x/img1x_6.webp'
+import Img2x_1 from '../assets/images2x/img2x_1.webp'
+import Img2x_2 from '../assets/images2x/img2x_2.webp'
+import Img2x_3 from '../assets/images2x/img2x_3.webp'
+import Img2x_4 from '../assets/images2x/img2x_4.webp'
+import Img2x_5 from '../assets/images2x/img2x_5.webp'
+import Img2x_6 from '../assets/images2x/img2x_6.webp'
+
 // fetch(url)
 // .then(response=>response.json)
 // .then(data=>console.log(data))
@@ -155,4 +168,35 @@ export const CommentsData = [
         speciality: "Senior frontend dasturchi",
         comment: "Cursus odio dapibus mauris nibh. Ultricies non in commodo ornare tellus diam. Nunc mi non ac morbi magnis tincidunt."
     }
+]
+
+
+export const GalleryItems = [
+    {
+        id: 1,
+        img1x: Img1,
+        img2x: Img2x_1
+    },
+    {
+        id: 2,
+        img1x: Img2,
+        img2x: Img2x_2
+    }, {
+        id: 3,
+        img1x: Img3,
+        img2x: Img2x_3
+    }, {
+        id: 4,
+        img1x: Img4,
+        img2x: Img2x_4
+    }, {
+        id: 5,
+        img1x: Img5,
+        img2x: Img2x_5
+    }, {
+        id: 6,
+        img1x: Img6,
+        img2x: Img2x_6
+    }
+
 ]

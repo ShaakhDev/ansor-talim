@@ -1,0 +1,39 @@
+section.contact-location {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	background: #fff;
+}
+.contact-location .contact-location__box {
+	max-width: 1400px;
+	width: 100%;
+	display: flex;
+}
+.contact-location__box .contact-location__text-content {
+	width: 45%;
+	padding: 3rem 2rem 3rem 0;
+}
+.contact-location__text-content p {
+	font-size: 25px;
+	color: #111;
+	padding: 20px 0;
+	font-weight: 500;
+}
+.contact-location__text-content .socials {
+	font-size: 19px;
+	color: #043353;
+	font-weight: 700;
+}
+.contact-location__heading {
+	padding-bottom: 2rem;
+}
+.contact-location__text-content a {
+	text-decoration: none;
+	font-size: 28px;
+	padding: 0 2rem 0 0;
+	color: #043353;
+}
+.contact-location__map {
+	width: 55%;
+	height: 100%;
+}

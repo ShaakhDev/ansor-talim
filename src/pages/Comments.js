@@ -42,7 +42,7 @@ export default function Comments() {
                     <h2>Izohlar</h2>
                 </div>
                 <Swiper spaceBetween={30} autoplay={{
-                    "delay": 2500,
+                    "delay": 4500,
                     "disableOnInteraction": false
                 }} pagination={{
 
