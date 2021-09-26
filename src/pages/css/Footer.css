@@ -1,7 +1,7 @@
 .footer .footer__box {
 	display: flex;
 	justify-content: flex-start;
-	padding-top: 2rem;
+	padding: 5rem 0;
 }
 .footer__brand-box > p {
 	color: #64696c;
