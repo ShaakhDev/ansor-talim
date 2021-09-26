@@ -8,6 +8,7 @@ body {
 	background-image: url("./assets/images1x/body.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow-x: hidden;
 }
 .box {
 	max-width: 1093px;
