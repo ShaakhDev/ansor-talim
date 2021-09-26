@@ -1,5 +1,5 @@
 import React from 'react';
-import './Comments.css'
+import './css/Comments.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
@@ -37,7 +37,7 @@ export default function Comments() {
 
     return (
         <section className="comments" id="comments">
-            <div className="comments__box">
+            <div className="comments__box box">
                 <div className="comments__box-heading">
                     <h2>Izohlar</h2>
                 </div>

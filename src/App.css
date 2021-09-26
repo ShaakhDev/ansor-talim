@@ -23,12 +23,16 @@ p {
 	font-size: 19px;
 }
 section {
-	width: 100%;
+	/* width: 100%; */
+	margin: 0 auto;
+	max-width: 1366px;
 	display: flex;
 	justify-content: center;
-	padding: 7vh calc((100vw - 80vw) / 2);
+	/* padding: 7vh calc((100vw - 80vw) / 2); */
 }
-
+a {
+	text-decoration: none;
+}
 .button {
 	padding: 0.6rem 2rem;
 	border-radius: 25px;

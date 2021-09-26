@@ -1,11 +1,9 @@
-section.courses {
+/* section.courses {
 	padding: 3vh calc((100vw - 80vw) / 2);
-}
+} */
 .courses .courses__box {
 	display: flex;
 	flex-direction: column;
-	max-width: 1400px;
-	width: 100%;
 }
 .courses__box .courses__box-heading > * {
 	display: inline-block;
@@ -62,7 +60,7 @@ section.courses {
 }
 .card__content .price {
 	font-size: 25px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #043353;
 	padding: 1.5rem 0;
 }

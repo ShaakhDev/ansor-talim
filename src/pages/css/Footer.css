@@ -1,8 +1,7 @@
 .footer .footer__box {
-	max-width: 1400px;
-	width: 100%;
 	display: flex;
 	justify-content: flex-start;
+	padding-top: 2rem;
 }
 .footer__brand-box > p {
 	color: #64696c;

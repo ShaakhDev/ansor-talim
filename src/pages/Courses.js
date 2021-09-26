@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CoursesData } from "../services/FetchData";
-import './Courses.css'
+import './css/Courses.css'
 
 export default function Courses() {
     const [click, setClick] = useState(false);
@@ -42,7 +42,7 @@ export default function Courses() {
 
     return (
         <section className="courses" id="courses">
-            <div className="courses__box">
+            <div className="courses__box box">
                 <div className="courses__box-heading">
                     <h2>Kurslar</h2>
                     <h5><span onClick={handleClick} >Barcha kurslar</span></h5>

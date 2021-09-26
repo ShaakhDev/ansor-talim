@@ -1,10 +1,10 @@
 import React from 'react';
-import './Contact.css'
+import './css/Contact.css'
 
 export default function Contact() {
     return (
         <section className="contact" id="contact">
-            <div className="contact__box">
+            <div className="contact__box box">
                 <div className="contact__box-heading">
                     <h2>Aloqa</h2>
                 </div>

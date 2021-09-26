@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css'
+import './css/Footer.css'
 import Logo from '../assets/images1x/logo.png'
 export default function Footer() {
     return (
         <section className="footer">
-            <div className="footer__box">
+            <div className="footer__box box">
                 <div className="footer__brand-box">
 
                     <a className="footer__logo" href="#home">

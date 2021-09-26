@@ -1,6 +1,4 @@
 .home .home__box {
-	max-width: 1400px;
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -12,7 +10,7 @@
 	width: 50%;
 }
 .home .home__box .home__box_text-content h1 {
-	font-size: calc(100vw / 23);
+	/* font-size: calc(100vw / 23); */
 }
 .home__box_text-content p {
 	padding: 2rem 0;

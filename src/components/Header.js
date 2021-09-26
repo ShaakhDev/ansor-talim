@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.css'
+import './css/Header.css'
 import Logo from '../assets/images1x/logo.png'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -9,7 +9,7 @@ export default function Header() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click)
     return (
-        <div className="header">
+        <div className="header box">
             <nav className="navbar">
                 <a className="navbar__logo" href="#home">
                     <div className="navbar__logo-img">
@@ -25,7 +25,7 @@ export default function Header() {
                 <div className="navbar__nav ">
                     <ul className={click ? "navbar__nav-items active" : "navbar__nav-items"}>
                         <li className="nav__link"><a href="#news">Yangiliklar</a></li>
-                        <li className="nav__link"><a href="#courses">Kuslar</a></li>
+                        <li className="nav__link"><a href="#courses">Kurslar</a></li>
                         <li className="nav__link"><a href="#teachers">Ustozlar</a></li>
                         <li className="nav__link"><a href="#comments">Izohlar</a></li>
                         <li className="nav__link"><a href="#gallery">Darslardan lavhalar</a></li>

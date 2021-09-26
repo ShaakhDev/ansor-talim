@@ -1,8 +1,6 @@
 .teachers .teachers__box {
 	display: flex;
 	flex-direction: column;
-	max-width: 1400px;
-	width: 100%;
 	overflow-x: hidden;
 }
 .teachers .teachers__box > * {

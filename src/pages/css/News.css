@@ -1,8 +1,6 @@
 .news .news__box {
 	display: flex;
 	flex-direction: column;
-	max-width: 1400px;
-	width: 100%;
 }
 .news__box .news__box-heading > * {
 	display: inline-block;

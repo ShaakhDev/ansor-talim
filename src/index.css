@@ -4,38 +4,20 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	scroll-behavior: smooth;
 	box-sizing: border-box;
 	background-image: url("./assets/images1x/body.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.box {
+	max-width: 1093px;
+	width: 100%;
+	margin: 0 auto;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+	font-family: "Product Sans", sans-serif;
+	scroll-behavior: smooth;
 }
-/* .bg1 {
-	width: 700px;
-	height: 700px;
-	top: -50px;
-	left: -50px;
-	position: absolute;
-	background: #46bee4;
-	z-index: -1;
-	filter: blur(600px);
-	opacity: 0.7;
-}
-.bg2 {
-	width: 500px;
-	height: 1000px;
-	top: -50px;
-	left: 40%;
-	position: absolute;
-	background: #8f00ff;
-	z-index: -1;
-	transform: rotateZ(30deg);
-	filter: blur(600px);
-	opacity: 0.4;
-} */

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
 
-import './Gallery.css'
+import './css/Gallery.css'
 export default function Gallery() {
     SwiperCore.use([Autoplay, Pagination, Navigation])
 
@@ -33,7 +33,7 @@ export default function Gallery() {
 
     return (
         <section className="gallery" id="gallery" >
-            <div className="gallery__box">
+            <div className="gallery__box box">
                 <div className="gallery__box-heading">
                     <h2>Darslardan lavhalar</h2>
                 </div>

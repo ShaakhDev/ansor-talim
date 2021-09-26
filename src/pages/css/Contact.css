@@ -1,6 +1,4 @@
 .contact .contact__box {
-	width: 100%;
-	max-width: 1400px;
 	display: flex;
 	flex-direction: column;
 }
@@ -9,7 +7,7 @@
 }
 .contact {
 	background: rgba(255, 255, 255, 0.383);
-	padding-bottom: 0;
+	padding: 2rem 0 0;
 	margin-bottom: 2rem;
 }
 .contact__box .contact__form-content .contact__form {

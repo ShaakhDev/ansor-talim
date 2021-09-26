@@ -1,23 +1,25 @@
 section.contact-location {
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-right: 0;
+	padding: 0;
 	background: #fff;
-}
-.contact-location .contact-location__box {
-	max-width: 1400px;
-	width: 100%;
 	display: flex;
 }
+.contact-location .contact-location__box {
+	display: flex;
+	width: 50%;
+}
 .contact-location__box .contact-location__text-content {
-	width: 45%;
-	padding: 3rem 2rem 3rem 0;
+	width: 100%;
+	text-align: start;
+	padding: 2rem 0 2rem 8.2rem;
 }
 .contact-location__text-content p {
 	font-size: 25px;
 	color: #111;
 	padding: 20px 0;
 	font-weight: 500;
+}
+.contact-location__text-content p span {
+	padding-right: 15px;
 }
 .contact-location__text-content .socials {
 	font-size: 19px;
@@ -34,6 +36,6 @@ section.contact-location {
 	color: #043353;
 }
 .contact-location__map {
-	width: 55%;
-	height: 100%;
+	width: 50%;
+	/* height: 100%; */
 }

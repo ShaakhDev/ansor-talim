@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CardData } from '../services/FetchData';
-import './News.css'
+import './css/News.css'
 
 export default function News() {
     const [click, setClick] = useState(false);
@@ -40,7 +40,7 @@ export default function News() {
 
     return (
         <section id="news" className="news">
-            <div className="news__box">
+            <div className="news__box box">
                 <div className="news__box-heading">
                     <h2>Yangiliklar</h2>
                     <h5><span onClick={handleClick} >Barcha yangiliklar</span></h5>

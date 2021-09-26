@@ -1,10 +1,9 @@
 import React from 'react';
-import './Teachers.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
 
-import "./Teachers.css";
+import "./css/Teachers.css";
 
 import { TeachersData } from '../services/FetchData';
 
@@ -37,7 +36,7 @@ function Teachers() {
 
     return (
         <section className="teachers" id="teachers">
-            <div className="teachers__box">
+            <div className="teachers__box box">
                 <div className="teachers__box-heading">
                     <h2>Ustozlar</h2>
                 </div>
