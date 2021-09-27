@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import './css/Header.css'
 import Logo from '../assets/images1x/logo.png'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
+import './css/Header.css'
 
 
 export default function Header() {

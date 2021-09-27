@@ -7,7 +7,6 @@ import './css/ContactLocation.css'
 
 export default function ContactLocation() {
 
-
     const MapLocation = () => {
         return (
             <YMaps width="100%">
@@ -34,7 +33,6 @@ export default function ContactLocation() {
                     <a href="https://facebook.com"><FaFacebook /></a>
                     <a href="https://instagram.com"><AiFillInstagram /></a>
                 </div>
-
             </div>
             <div className="contact-location__map">
                 <MapLocation />

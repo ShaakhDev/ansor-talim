@@ -8,7 +8,6 @@ export default function News() {
         setClick(!click);
     }
 
-
     const Card = () => {
         return CardData.slice(0, click ? 6 : 3).map(item => {
             return (
@@ -28,7 +27,6 @@ export default function News() {
         })
     }
 
-
     const CardRow = () => {
         return (
             <div className="card__row">
@@ -37,7 +35,6 @@ export default function News() {
         )
     }
 
-
     return (
         <section id="news" className="news">
             <div className="news__box box">
@@ -45,9 +42,7 @@ export default function News() {
                     <h2>Yangiliklar</h2>
                     <h5><span onClick={handleClick} >Barcha yangiliklar</span></h5>
                 </div>
-
                 <CardRow />
-
             </div>
         </section>
     )

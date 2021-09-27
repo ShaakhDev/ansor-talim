@@ -1,8 +1,8 @@
 import React from 'react';
-import './css/Comments.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+import "swiper/swiper-bundle.min.css";
+import './css/Comments.css'
 
 
 import { CommentsData } from '../services/FetchData'

@@ -15,7 +15,6 @@ export default function Courses() {
         setIsShownOtherCourses(!isShownOtherCourses)
     }
 
-
     const Card = () => {
         return CoursesData.slice(0, isShownOtherCourses ? 6 : 3).map(item => {
             return (
@@ -31,9 +30,7 @@ export default function Courses() {
                         </div>
                         <p className="card__title">{item.title}</p>
                         <h5 className="price">{item.price} </h5>
-
                         <button onClick={showModal} className="button">Sotib olish</button>
-
                     </div>
                 </div>
             )
@@ -54,7 +51,6 @@ export default function Courses() {
         }, 250);
     }
 
-
     const Modal = () => {
         return (
             <div className={isOpenModal ? "modal__box" : "modal__box d-none"}>
@@ -70,9 +66,6 @@ export default function Courses() {
         )
     }
 
-
-
-
     return (
         <section className="courses" id="courses">
             <div className="courses__box box">
@@ -85,7 +78,6 @@ export default function Courses() {
                 </div>
             </div>
             <Modal />
-
         </section>
     )
 }

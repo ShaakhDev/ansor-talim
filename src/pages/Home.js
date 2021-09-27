@@ -1,11 +1,8 @@
 import React from 'react';
-import './css/Home.css'
 import HomeImg from '../assets/images1x/home-img.webp'
-
+import './css/Home.css'
 
 export default function Home() {
-
-
 
     return (
         <section id="home" className="home">

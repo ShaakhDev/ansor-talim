@@ -1,14 +1,11 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
-
+import { TeachersData } from '../services/FetchData';
+import "swiper/swiper-bundle.min.css";
 import "./css/Teachers.css";
 
-import { TeachersData } from '../services/FetchData';
-
-
-function Teachers() {
+export default function Teachers() {
     SwiperCore.use([Autoplay, Pagination, Navigation]);
 
     const Card = () => {
@@ -52,9 +49,6 @@ function Teachers() {
                     <SwiperSlide><TeachersCardRow /></SwiperSlide>
                 </Swiper>
             </div>
-
         </section>
     )
 }
-
-export default Teachers;
