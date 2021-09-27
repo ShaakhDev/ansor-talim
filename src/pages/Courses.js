@@ -6,19 +6,18 @@ import './css/Courses.css'
 
 
 export default function Courses() {
-    const [click, setClick] = useState(false);
-    const [isOpen, setIsOpen] = useState(false);
+    const [isShownOtherCourses, setIsShownOtherCourses] = useState(false);
+    const [isOpenModal, setIsOpenModal] = useState(false);
     const handleBtnClick = () => {
-        setIsOpen(true)
-
+        setIsOpenModal(true)
     }
     const handleClick = () => {
-        setClick(!click);
-
+        setIsShownOtherCourses(!isShownOtherCourses)
     }
 
+
     const Card = () => {
-        return CoursesData.slice(0, click ? 6 : 3).map(item => {
+        return CoursesData.slice(0, isShownOtherCourses ? 6 : 3).map(item => {
             return (
                 <div key={item.id} className="card">
                     <div className="card__img">
@@ -33,7 +32,7 @@ export default function Courses() {
                         <p className="card__title">{item.title}</p>
                         <h5 className="price">{item.price} </h5>
 
-                        <button onClick={handleBtnClick} className="button">Sotib olish</button>
+                        <button onClick={showModal} className="button">Sotib olish</button>
 
                     </div>
                 </div>
@@ -41,16 +40,31 @@ export default function Courses() {
         })
     }
 
+    function showModal() {
+        document.body.style.overflow = 'hidden';
+        document.getElementsByClassName('overlay')[0].style.display = 'flex'
+        handleBtnClick()
+    }
+    function hideModal() {
+        document.getElementsByClassName('modal__box')[0].classList.add('animate')
+        document.body.style.overflow = 'visible';
+        setTimeout(() => {
+            document.getElementsByClassName('overlay')[0].style.display = 'none'
+            setIsOpenModal(false)
+        }, 250);
+    }
+
+
     const Modal = () => {
         return (
-            <div className={isOpen ? "modal__box" : "modal__box d-none"}>
-                <BsX size={35} onClick={() => { setIsOpen(false) }} />
+            <div className={isOpenModal ? "modal__box" : "modal__box d-none"}>
+                <BsX size={35} onClick={() => { hideModal() }} />
                 <form action="#" method="post">
                     <label htmlFor="name">Ism va Familiyangizni kiriting: F.I.O.</label>
                     <input type="text" name="name" placeholder="Bu yerga yozing" />
                     <label htmlFor="mail">Telefon nomer yoki Emailingizni kiriting</label>
                     <input type="text" name="mail" placeholder="Bu yerga yozing" />
-                    <button className="button"> Sotib olish</button>
+                    <button onClick={hideModal} type="submit" className="button"> Sotib olish</button>
                 </form>
             </div>
         )

@@ -1,14 +1,5 @@
 import React, { lazy, Suspense } from "react";
 import './App.css'
-// import News from './pages/News'
-// import Home from './pages/Home';
-// import Teachers from './pages/Teachers';
-// import Comments from "./pages/Comments";
-// import Gallery from "./pages/Gallery";
-// import Contact from "./pages/Contact";
-// import ContactLocation from "./pages/ContactLocation";
-// import Footer from "./pages/Footer";
-
 const Header = lazy(() => import('./components/Header'))
 const Home = lazy(() => import('./pages/Home'))
 const News = lazy(() => import('./pages/News'))
@@ -27,10 +18,7 @@ export default function App() {
         <Header />
         <Home />
         <News />
-
-
         <Courses />
-
         <Teachers />
         <Comments />
         <Gallery />

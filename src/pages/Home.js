@@ -14,18 +14,16 @@ export default function Home() {
                     <h1 className="ps">Abituriyentlikdan studentlik tomon</h1>
                     <p>Uyda qoling, online ta'lim oling. At massa at dictumst odio sapien tortor auctor sollicitudin. </p>
                     <div className="home__button">
-
                         <button className="button">Kursga a'zo bo'lish</button>
                     </div>
                 </div>
                 <div className="home__box_img">
                     <img src={HomeImg} alt="home-img" />
                     <div className="circle-overlay">
-
                     </div>
                 </div>
             </div>
-
+            <div className="overlay"></div>
         </section>
     )
 }

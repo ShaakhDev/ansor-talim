@@ -47,12 +47,25 @@
 .navbar__menu-icon {
 	display: none;
 }
+@media screen and (max-width: 310px) {
+	html {
+		width: 100%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.navbar {
+		position: relative;
+		margin: 0 auto;
+	}
+}
 @media screen and (max-width: 960px) {
 	body {
 		overflow-x: hidden;
 	}
 	.navbar {
 		position: relative;
+		margin: 0 auto;
 	}
 	.navbar__menu-icon {
 		display: block;
