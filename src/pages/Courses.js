@@ -57,10 +57,10 @@ export default function Courses() {
                 <BsX size={35} onClick={() => { hideModal() }} />
                 <form action="#" method="post">
                     <label htmlFor="name">Ism va Familiyangizni kiriting: F.I.O.</label>
-                    <input type="text" name="name" placeholder="Bu yerga yozing" />
+                    <input type="text" name="name" placeholder="Bu yerga yozing" required />
                     <label htmlFor="mail">Telefon nomer yoki Emailingizni kiriting</label>
-                    <input type="text" name="mail" placeholder="Bu yerga yozing" />
-                    <button onClick={hideModal} type="submit" className="button"> Sotib olish</button>
+                    <input type="text" name="mail" placeholder="Bu yerga yozing" required />
+                    <button type="submit" className="button"> Sotib olish</button>
                 </form>
             </div>
         )

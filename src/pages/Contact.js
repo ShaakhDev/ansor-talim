@@ -12,11 +12,11 @@ export default function Contact() {
                     <form className="contact__form" action="#" method="post">
                         <div className="form-content__name">
                             <label htmlFor="fio" >Ism va Familiyangizni kriting F.I.O.</label> <br />
-                            <input type="text" name="fio" placeholder="Bu yerga yozing" />
+                            <input type="text" name="fio" placeholder="Bu yerga yozing" required />
                         </div>
                         <div className="form-content__email">
                             <label htmlFor="email">Telefon nomer yoki Emailingizni kiriting</label> <br />
-                            <input type="text" name="email" placeholder="Telefon / Email" />
+                            <input type="text" name="email" placeholder="Telefon / Email" required />
                         </div>
                         <button className="button contact__button" type="submit">Yuborish</button>
                     </form>
