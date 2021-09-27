@@ -4,6 +4,7 @@ import { AiOutlineZoomIn } from 'react-icons/ai';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/swiper-bundle.min.css";
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+import Fancybox from "../components/Fancy";
 
 import './css/Gallery.css'
 export default function Gallery() {
@@ -12,12 +13,18 @@ export default function Gallery() {
     const GalleryItem = () => {
         return GalleryItems.map(item => {
             return (
-                <div key={item.id} className="gallery__item-wrapper">
-                    <div className="gallery__item-overlay">
-                        <AiOutlineZoomIn />
+                <Fancybox>
+                    <div key={item.id} className="gallery__item-wrapper">
+                        <a data-fancybox="gallery" href={item.img3x}>
+                            <div className="gallery__item-overlay">
+
+                                <AiOutlineZoomIn />
+                            </div>
+                        </a>
+
+                        <img src={item.img1x} alt="item" />
                     </div>
-                    <img src={item.img1x} alt="item" />
-                </div>
+                </Fancybox>
             )
         })
     }
