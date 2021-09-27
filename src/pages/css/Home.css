@@ -29,10 +29,21 @@
 	height: 100%;
 }
 @media screen and (max-width: 376px) {
-	.home__box_text-content h1 {
-		font-size: 30px;
+	.home__box_text-content h1.ps {
+		font-size: 35px;
+		text-align: left;
+		padding: 3rem 0;
+	}
+	.home__box_text-content {
+		width: 90% !important;
+	}
+	.home__box_text-content p {
+		display: none;
 	}
 	.home__box .home__box_img img {
 		display: none;
+	}
+	.home__button {
+		padding: 0 0 2rem 0;
 	}
 }

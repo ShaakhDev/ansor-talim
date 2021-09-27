@@ -9,9 +9,9 @@ export default function ContactLocation() {
 
     const MapLocation = () => {
         return (
-            <YMaps width="100%">
+            <YMaps width="100%" height="100%">
                 <Map
-                    style={{ width: "100%", height: "100%" }}
+                    style={window.screen.width < 350 ? { width: '100%', height: '100%' } : { width: '100', height: '100%' }}
                     defaultState={{ center: [41.29114, 69.25800], zoom: 14 }}
                 />
             </YMaps>

@@ -16,8 +16,6 @@ export default function Home() {
                 </div>
                 <div className="home__box_img">
                     <img src={HomeImg} alt="home-img" />
-                    <div className="circle-overlay">
-                    </div>
                 </div>
             </div>
             <div className="overlay"></div>

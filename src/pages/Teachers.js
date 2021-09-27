@@ -8,8 +8,11 @@ import "./css/Teachers.css";
 export default function Teachers() {
     SwiperCore.use([Autoplay, Pagination, Navigation]);
 
+
+
+
     const Card = () => {
-        return TeachersData.map(item => {
+        return TeachersData.slice(0, window.screen.width < 350 ? 1 : 3).map(item => {
             return (
                 <div key={item.id} className="card" >
                     <div className="card__tutor-img">

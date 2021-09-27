@@ -6,7 +6,13 @@ import './css/Header.css'
 
 export default function Header() {
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click)
+    const handleClick = () => setClick(!click);
+
+
+    function disableBody() {
+        document.body.style.overflow = 'hidden !important'
+        handleClick()
+    }
     return (
         <div className="header box">
             <nav className="navbar">
@@ -18,8 +24,8 @@ export default function Header() {
                         <p><span>ANSOR</span> <br /> TA'LIM</p>
                     </div>
                 </a>
-                <div onClick={handleClick} className="navbar__menu-icon">
-                    {click ? <FaTimes /> : <FaBars />}
+                <div onClick={disableBody} className="navbar__menu-icon">
+                    {click ? <FaTimes style={{ color: '#fff' }} /> : <FaBars />}
                 </div>
                 <div className="navbar__nav ">
                     <ul className={click ? "navbar__nav-items active" : "navbar__nav-items"}>

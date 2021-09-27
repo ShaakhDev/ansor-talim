@@ -36,3 +36,13 @@ body .overlay {
 	font-display: swap;
 	scroll-behavior: smooth;
 }
+@media screen and (max-width: 350px) {
+	.box {
+		max-width: 290px;
+	}
+
+	html,
+	body {
+		overflow-x: hidden !important;
+	}
+}

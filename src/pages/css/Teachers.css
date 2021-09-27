@@ -37,8 +37,8 @@
 	border-bottom-right-radius: 75px;
 	border-bottom-left-radius: 75px;
 	border-top: 0;
-	background: rgb(241, 232, 246);
-	border: 7px solid rgb(241, 232, 246);
+	background: rgb(246, 243, 247);
+	border: 7px solid rgb(246, 243, 247);
 	bottom: -7px;
 	left: -7px;
 	z-index: -2;
@@ -76,4 +76,12 @@
 .swiper-button-prev::after,
 .swiper-button-next::after {
 	display: none;
+}
+@media screen and (max-width: 350px) {
+	.teachers .teachers__box .teachers__row .card {
+		width: 100%;
+	}
+	.teachers__box .teachers__box-heading {
+		padding-top: 3rem;
+	}
 }

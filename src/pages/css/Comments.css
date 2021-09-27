@@ -37,8 +37,8 @@
 	border-bottom-right-radius: 75px;
 	border-bottom-left-radius: 75px;
 	border-top: 0;
-	background: rgb(239, 227, 247);
-	border: 7px solid rgb(239, 227, 247);
+	background: rgb(228, 229, 233);
+	border: 7px solid rgb(228, 229, 233);
 	bottom: -7px;
 	left: -7px;
 	z-index: -2;
@@ -66,3 +66,11 @@
 .tutor__name {
 	padding-top: 1rem;
 }
+@media screen and (max-width: 350px) {
+	.comments .comments__box .comments__row .card {
+		width: 100%;
+	}
+	.comments__box .comments__box-heading {
+		padding-top: 3rem;
+	}
+} ;

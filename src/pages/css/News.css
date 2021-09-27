@@ -69,3 +69,14 @@
 	color: #cfcfcf;
 	font-weight: 300;
 }
+@media screen and (max-width: 350px) {
+	.news .news__box .card__row {
+		flex-wrap: wrap;
+	}
+	.news__box .news__box-heading {
+		padding-top: 2rem;
+	}
+	.news__box .card__row .card {
+		width: 100%;
+	}
+}
