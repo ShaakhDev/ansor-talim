@@ -113,3 +113,8 @@
 		font-size: 19px !important;
 	}
 }
+@media (min-width: 800px) and (max-width: 900px) {
+	.footer__links {
+		padding: 5px;
+	}
+}

@@ -14,9 +14,12 @@ export default function Home() {
                         <button className="button">Kursga a'zo bo'lish</button>
                     </div>
                 </div>
-                <div className="home__box_img">
-                    <img src={HomeImg} alt="home-img" />
-                </div>
+                {window.screen.width < 711 ? "" : (
+
+                    <div className="home__box_img">
+                        <img src={HomeImg} alt="home-img" />
+                    </div>
+                )}
             </div>
             <div className="overlay"></div>
         </section>

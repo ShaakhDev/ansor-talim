@@ -67,9 +67,6 @@
 	}
 }
 @media (min-width: 481px) and (max-width: 710px) {
-	.home__box .home__box_img img {
-		display: none;
-	}
 	.home__button {
 		margin-bottom: 3rem;
 	}

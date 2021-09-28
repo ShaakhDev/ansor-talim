@@ -14,9 +14,12 @@ export default function Teachers() {
     const Card = () => {
         return TeachersData.slice(0, window.screen.width < 769 ? (window.screen.width < 480 ? 1 : 2) : 3).map(item => {
             return (
-                <div key={item.id} className="card" >
-                    <div className="card__tutor-img">
-                        <img src={item.img} alt="avatar" />
+                <div key={item.id} className="card"  >
+                    <div className="ruler">
+
+                        <div className="card__tutor-img">
+                            <img src={item.img} alt="avatar" />
+                        </div>
                     </div>
                     <h4 className="tutor__name">{item.name} </h4>
                     <p className="tutor__speciality">{item.speciality}</p>
@@ -42,7 +45,7 @@ export default function Teachers() {
                 </div>
                 <Swiper spaceBetween={30} autoplay={{
                     "delay": 4500,
-                    "disableOnInteraction": false
+                    "disableOnInteraction": true
                 }} pagination={{
 
                     "clickable": true

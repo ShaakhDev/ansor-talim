@@ -68,6 +68,41 @@
 	.navbar__logo .navbar__logo-brand p {
 		font-size: 14px !important;
 	}
+	.navbar__menu-icon {
+		display: block;
+		color: #043353;
+		position: absolute;
+		right: 0;
+		z-index: 10;
+	}
+	.navbar__nav-items {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 4rem 0 0 3rem;
+		width: 100%;
+		height: 110vh;
+		position: absolute;
+		right: -130%;
+		top: -35px;
+		transition: all 0.3s ease;
+		line-height: 40px;
+		background: var(--color-1);
+		z-index: 9;
+	}
+	.navbar__nav-items .nav__link a {
+		color: #fff;
+	}
+	.navbar__nav-items.active {
+		position: absolute;
+		right: -40%;
+		top: -35px;
+		width: 120%;
+		height: 110vh;
+		overflow: hidden;
+		display: flex;
+	}
 }
 
 @media (min-width: 351px) and (max-width: 480px) {
