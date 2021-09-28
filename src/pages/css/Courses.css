@@ -172,7 +172,7 @@
 	}
 }
 
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	.courses__box .courses__card-row .card {
 		width: 100%;
 	}

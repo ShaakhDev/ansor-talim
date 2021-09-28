@@ -80,7 +80,7 @@
 		width: 100%;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	.news .news__box .card__row {
 		flex-wrap: wrap;
 	}

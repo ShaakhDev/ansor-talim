@@ -67,7 +67,7 @@
 	padding-top: 1rem;
 }
 @media screen and (max-width: 350px),
-	(min-width: 351px) and (max-width: 420px) {
+	(min-width: 351px) and (max-width: 480px) {
 	.comments .comments__box .comments__row .card {
 		width: 100%;
 	}

@@ -76,7 +76,7 @@ a {
 		text-align: center;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	h1 {
 		font-size: 30px;
 	}

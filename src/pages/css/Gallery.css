@@ -65,7 +65,7 @@
 		opacity: 0.9;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	.gallery .gallery__box .gallery__row {
 		display: grid;
 		grid-template-rows: 1fr 1fr;

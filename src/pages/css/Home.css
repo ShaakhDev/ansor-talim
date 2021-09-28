@@ -47,7 +47,7 @@
 		padding: 0 0 2rem 0;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	.home__box_text-content h1.ps {
 		font-size: 38px;
 		text-align: left;

@@ -69,7 +69,8 @@
 		font-size: 14px !important;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+
+@media (min-width: 351px) and (max-width: 480px) {
 	.header.box {
 		padding: 15px 0;
 		margin-bottom: 2rem;
@@ -90,12 +91,7 @@
 	.navbar__logo .navbar__logo-brand p {
 		font-size: 14px !important;
 	}
-}
-@media screen and (max-width: 960px) {
-	.navbar {
-		position: relative;
-		margin: 0 auto;
-	}
+
 	.navbar__menu-icon {
 		display: block;
 		color: #043353;

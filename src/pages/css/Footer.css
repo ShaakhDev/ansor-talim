@@ -80,7 +80,7 @@
 		font-size: 19px !important;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	.footer .footer__box {
 		flex-wrap: wrap;
 		padding: 1.5rem 0;

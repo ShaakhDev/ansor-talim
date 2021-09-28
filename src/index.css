@@ -46,9 +46,9 @@ body .overlay {
 		overflow-x: hidden !important;
 	}
 }
-@media (min-width: 351px) and (max-width: 420px) {
+@media (min-width: 351px) and (max-width: 480px) {
 	.box {
-		max-width: 340px;
+		max-width: 350px;
 	}
 	html,
 	body {

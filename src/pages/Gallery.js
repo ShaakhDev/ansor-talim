@@ -11,7 +11,7 @@ export default function Gallery() {
     SwiperCore.use([Autoplay, Pagination, Navigation])
 
     const GalleryItem = () => {
-        return GalleryItems.slice(0, window.screen.width < 420 ? 4 : 6).map(item => {
+        return GalleryItems.slice(0, window.screen.width < 480 ? 4 : 6).map(item => {
             return (
                 <Fancybox>
                     <div key={item.id} className="gallery__item-wrapper">
