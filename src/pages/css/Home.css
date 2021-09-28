@@ -28,9 +28,28 @@
 	width: 100%;
 	height: 100%;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 350px) {
 	.home__box_text-content h1.ps {
 		font-size: 35px;
+		text-align: left;
+		padding: 3rem 0;
+	}
+	.home__box_text-content {
+		width: 90% !important;
+	}
+	.home__box_text-content p {
+		display: none;
+	}
+	.home__box .home__box_img img {
+		display: none;
+	}
+	.home__button {
+		padding: 0 0 2rem 0;
+	}
+}
+@media (min-width: 351px) and (max-width: 420px) {
+	.home__box_text-content h1.ps {
+		font-size: 38px;
 		text-align: left;
 		padding: 3rem 0;
 	}

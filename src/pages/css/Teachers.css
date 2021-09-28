@@ -85,3 +85,11 @@
 		padding-top: 3rem;
 	}
 }
+@media (min-width: 351px) and (max-width: 420px) {
+	.teachers .teachers__box .teachers__row .card {
+		width: 100%;
+	}
+	.teachers__box .teachers__box-heading {
+		padding-top: 3rem;
+	}
+}

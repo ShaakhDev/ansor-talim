@@ -65,3 +65,18 @@
 		opacity: 0.9;
 	}
 }
+@media (min-width: 351px) and (max-width: 420px) {
+	.gallery .gallery__box .gallery__row {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+		height: 100%;
+	}
+	.gallery__item-wrapper .gallery__item-overlay {
+		font-size: 30px;
+	}
+	.gallery__item-wrapper .gallery__item-overlay svg {
+		opacity: 0.9;
+	}
+}

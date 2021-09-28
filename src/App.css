@@ -75,6 +75,34 @@ a {
 		padding: 8px 20px;
 		text-align: center;
 	}
-	section {
+}
+@media (min-width: 351px) and (max-width: 420px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px !important;
+	}
+	p {
+		font-size: 14px !important;
+	}
+	input,
+	input::placeholder,
+	label {
+		font-size: 14px !important;
+	}
+	.button {
+		font-size: 14px;
+		padding: 10px 28px;
+		text-align: center;
 	}
 }

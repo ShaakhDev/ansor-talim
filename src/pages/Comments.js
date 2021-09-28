@@ -12,7 +12,7 @@ export default function Comments() {
     SwiperCore.use([Autoplay, Pagination, Navigation])
 
     const Card = () => {
-        return CommentsData.slice(0, window.screen.width < 350 ? 1 : 3).map(item => {
+        return CommentsData.slice(0, window.screen.width < 420 ? 1 : 3).map(item => {
             return (
                 <div key={item.id} className="card" >
                     <div className="card__tutor-img">

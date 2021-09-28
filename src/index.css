@@ -46,3 +46,12 @@ body .overlay {
 		overflow-x: hidden !important;
 	}
 }
+@media (min-width: 351px) and (max-width: 420px) {
+	.box {
+		max-width: 340px;
+	}
+	html,
+	body {
+		overflow-x: hidden !important;
+	}
+}

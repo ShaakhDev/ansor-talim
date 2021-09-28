@@ -69,6 +69,28 @@
 		font-size: 14px !important;
 	}
 }
+@media (min-width: 351px) and (max-width: 420px) {
+	.header.box {
+		padding: 15px 0;
+		margin-bottom: 2rem;
+	}
+	.navbar .navbar__logo {
+		width: 85px;
+		height: 32px;
+	}
+	.navbar .navbar__logo img {
+		width: 32px;
+		height: 32px;
+	}
+	.navbar {
+		position: relative;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.navbar__logo .navbar__logo-brand p {
+		font-size: 14px !important;
+	}
+}
 @media screen and (max-width: 960px) {
 	.navbar {
 		position: relative;
