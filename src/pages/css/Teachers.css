@@ -93,3 +93,11 @@
 		padding-top: 3rem;
 	}
 }
+@media (min-width: 481px) and (max-width: 768px) {
+	.teachers .teachers__box .teachers__row .card {
+		width: 47%;
+	}
+	.teachers__row .card .about__tutor {
+		font-size: 16px;
+	}
+}

@@ -16,7 +16,7 @@ export default function Courses() {
     }
 
     const Card = () => {
-        return CoursesData.slice(0, isShownOtherCourses ? 6 : 3).map(item => {
+        return CoursesData.slice(0, isShownOtherCourses ? (window.screen.width < 769 && window.screen.width > 480 ? 4 : 6) : (window.screen.width < 769 && window.screen.width > 480 ? 2 : 3)).map(item => {
             return (
                 <div key={item.id} className="card">
                     <div className="card__img">

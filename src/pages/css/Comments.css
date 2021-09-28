@@ -74,4 +74,14 @@
 	.comments__box .comments__box-heading {
 		padding-top: 3rem;
 	}
-} ;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.comments .comments__box .comments__row .card {
+		width: 47%;
+	}
+	.comments__row .card .about__tutor {
+		color: #000;
+		font-size: 16px;
+	}
+}

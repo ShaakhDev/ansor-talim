@@ -55,3 +55,30 @@ body .overlay {
 		overflow-x: hidden !important;
 	}
 }
+@media (min-width: 481px) and (max-width: 710px) {
+	.box {
+		max-width: 480px !important;
+	}
+}
+@media (min-width: 711px) and (max-width: 768px) {
+	.box {
+		max-width: 680px;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	html,
+	body {
+		overflow-x: hidden !important;
+	}
+}
+
+@media (min-width: 871px) and (max-width: 1280px) {
+	.box {
+		max-width: 870px;
+	}
+}
+@media (min-width: 769px) and (max-width: 870px) {
+	.box {
+		max-width: 780px;
+	}
+}

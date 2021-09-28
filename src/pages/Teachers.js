@@ -12,7 +12,7 @@ export default function Teachers() {
 
 
     const Card = () => {
-        return TeachersData.slice(0, window.screen.width < 480 ? 1 : 3).map(item => {
+        return TeachersData.slice(0, window.screen.width < 769 ? (window.screen.width < 480 ? 1 : 2) : 3).map(item => {
             return (
                 <div key={item.id} className="card" >
                     <div className="card__tutor-img">

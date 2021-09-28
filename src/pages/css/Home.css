@@ -66,3 +66,26 @@
 		padding: 0 0 2rem 0;
 	}
 }
+@media (min-width: 481px) and (max-width: 710px) {
+	.home__box .home__box_img img {
+		display: none;
+	}
+	.home__button {
+		margin-bottom: 3rem;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	.home__box .home__box_img img {
+		width: 290px;
+	}
+	.home__box_text-content {
+		width: 70% !important;
+	}
+	.home__box_text-content h1.ps {
+		font-size: 48px;
+		text-align: left;
+	}
+	.home__box_text-content p {
+		font-size: 16px;
+	}
+}

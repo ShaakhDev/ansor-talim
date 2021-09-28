@@ -91,3 +91,8 @@
 		width: 100%;
 	}
 }
+@media (min-width: 481px) and (max-width: 768px) {
+	.news__box .card__row .card {
+		width: 48%;
+	}
+}

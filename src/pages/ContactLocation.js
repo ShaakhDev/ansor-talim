@@ -11,7 +11,7 @@ export default function ContactLocation() {
         return (
             <YMaps width="100%" height="100%">
                 <Map
-                    style={window.screen.width < 480 ? { width: '100%', height: '100%' } : { width: '100', height: '100%' }}
+                    style={window.screen.width < 769 ? { width: '100%', height: '100%' } : { width: '100', height: '100%' }}
                     defaultState={{ center: [41.29114, 69.25800], zoom: 14 }}
                 />
             </YMaps>

@@ -9,7 +9,7 @@ export default function News() {
     }
 
     const Card = () => {
-        return CardData.slice(0, click ? 6 : 3).map(item => {
+        return CardData.slice(0, click ? (window.screen.width < 769 && window.screen.width > 480 ? 4 : 6) : (window.screen.width < 769 && window.screen.width > 480 ? 2 : 3)).map(item => {
             return (
                 <div key={item.id} className="card">
                     <div className="card__img">

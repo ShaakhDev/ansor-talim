@@ -200,3 +200,12 @@
 		bottom: 1rem;
 	}
 }
+@media (min-width: 481px) and (max-width: 768px) {
+	.courses__card-row .card {
+		width: 48%;
+	}
+	.card .card__content .card__tutor p {
+		padding: 0;
+		font-size: 16px;
+	}
+}

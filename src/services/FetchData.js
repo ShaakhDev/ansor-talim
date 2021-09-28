@@ -139,7 +139,7 @@ export const TeachersData = [
         id: 2,
         name: "Rasulov Jasurbek",
         img: Tutor2,
-        speciality: "Fizika fani o'qituvchisi",
+        speciality: "Fizika fanlari o'qituvchisi",
         about: "8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirdlariga ega"
     },
     {
