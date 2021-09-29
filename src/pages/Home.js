@@ -11,11 +11,10 @@ export default function Home() {
                     <h1 className="ps">Abituriyentlikdan studentlik tomon</h1>
                     <p>Uyda qoling, online ta'lim oling. At massa at dictumst odio sapien tortor auctor sollicitudin. </p>
                     <div className="home__button">
-                        <button className="button">Kursga a'zo bo'lish</button>
+                        <button className="button"><a href="https://t.me/ansortalim">Kursga a'zo bo'lish</a></button>
                     </div>
                 </div>
                 {window.screen.width < 711 ? "" : (
-
                     <div className="home__box_img">
                         <img src={HomeImg} alt="home-img" />
                     </div>

@@ -71,7 +71,7 @@ export default function Courses() {
             <div className="courses__box box">
                 <div className="courses__box-heading">
                     <h2>Kurslar</h2>
-                    <h5><span onClick={handleClick} >Barcha kurslar</span></h5>
+                    <h5><span onClick={handleClick} >{isShownOtherCourses ? "Kamroq" : "Barcha kurslar"}</span></h5>
                 </div>
                 <div className="courses__card-row">
                     <Card />

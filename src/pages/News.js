@@ -40,7 +40,7 @@ export default function News() {
             <div className="news__box box">
                 <div className="news__box-heading">
                     <h2>Yangiliklar</h2>
-                    <h5><span onClick={handleClick} >Barcha yangiliklar</span></h5>
+                    <h5><span onClick={handleClick} >{click ? "Kamroq" : "Barcha yangiliklar"}</span></h5>
                 </div>
                 <CardRow />
             </div>

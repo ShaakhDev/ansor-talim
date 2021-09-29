@@ -96,3 +96,8 @@
 		width: 48%;
 	}
 }
+@media (min-width: 768px) {
+	.news__box .news__box-heading {
+		padding-top: 4rem;
+	}
+}

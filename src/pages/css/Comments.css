@@ -12,12 +12,12 @@
 .comments .comments__box .swiper-container {
 	width: 100%;
 }
-.comments .comments__box .comments__row {
+.comments .comments__box {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
-.comments__row .ruler .card__tutor-img {
+.ruler .card__tutor-img {
 	width: 140px;
 	height: 140px;
 	position: absolute;
@@ -25,7 +25,7 @@
 	z-index: 99;
 	align-self: center;
 }
-.comments__row .ruler {
+.ruler {
 	width: 100%;
 	height: 70px;
 	position: absolute;
@@ -34,30 +34,22 @@
 	display: flex;
 	justify-content: center;
 }
-.comments__row .card .tutor__name {
+.comments__box .card .tutor__name {
 	margin-top: 70px;
 }
-.comments__row .card__tutor-img img {
+.card__tutor-img img {
 	width: 100%;
 	height: 100%;
 }
-.comments__row .card__tutor-img::after {
-	content: "";
-	position: absolute;
-	width: 140px;
-	height: 63px;
-	border-bottom-right-radius: 75px;
-	border-bottom-left-radius: 75px;
-	border-top: 0;
-	background: rgb(228, 229, 233);
-	border: 7px solid rgb(228, 229, 233);
-	bottom: -7px;
-	left: -7px;
-	z-index: -2;
-}
-.comments .comments__box .comments__row .card {
-	width: 32%;
-	background: #fff;
+
+.comments .comments__box .card {
+	width: 100%;
+	background: radial-gradient(
+		circle at 50% 0,
+		transparent 77px,
+		rgb(255, 255, 255) 0,
+		rgb(255, 255, 255) 100%
+	);
 	border-radius: 10px;
 	padding: 0 1rem 1rem;
 	display: flex;
@@ -66,12 +58,12 @@
 	text-align: center;
 	margin-bottom: 2.5rem;
 }
-.comments .comments__box .comments__row .card:hover {
+.comments .comments__box .card:hover {
 	-webkit-box-shadow: 0px 14px 32px -13px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px 14px 32px -13px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px 14px 32px -13px rgba(0, 0, 0, 0.25);
 }
-.comments__row .card .about__tutor {
+.card .about__tutor {
 	color: #000;
 	font-size: 19px;
 }
@@ -80,7 +72,7 @@
 }
 @media screen and (max-width: 350px),
 	(min-width: 351px) and (max-width: 480px) {
-	.comments .comments__box .comments__row .card {
+	.comments .comments__box .card {
 		width: 100%;
 	}
 	.comments__box .comments__box-heading {
@@ -89,11 +81,13 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-	.comments .comments__box .comments__row .card {
-		width: 47%;
-	}
-	.comments__row .card .about__tutor {
+	.card .about__tutor {
 		color: #000;
 		font-size: 16px;
+	}
+}
+@media (min-width: 800px) and (max-width: 949px) {
+	.comments__box .card {
+		min-height: 390px;
 	}
 }

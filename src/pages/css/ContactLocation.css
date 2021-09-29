@@ -120,7 +120,7 @@ section.contact-location {
 		font-size: 32px;
 	}
 }
-@media (min-width: 800px) and (max-width: 900px) {
+@media (min-width: 769px) and (max-width: 1000px) {
 	.contact-location__box .contact-location__text-content {
 		padding: 2rem 1rem 2rem 3rem;
 	}

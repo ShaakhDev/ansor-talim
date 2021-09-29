@@ -11,6 +11,7 @@ body {
 	overflow-x: hidden;
 	position: relative;
 }
+
 .box {
 	max-width: 1093px;
 	width: 100%;
@@ -36,9 +37,9 @@ body .overlay {
 	font-display: swap;
 	scroll-behavior: smooth;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 1280px) {
 	.box {
-		max-width: 290px;
+		max-width: 85vw;
 	}
 
 	html,
@@ -46,9 +47,9 @@ body .overlay {
 		overflow-x: hidden !important;
 	}
 }
-@media (min-width: 351px) and (max-width: 480px) {
+/* @media (min-width: 351px) and (max-width: 480px) {
 	.box {
-		max-width: 350px;
+		max-width: 85vw;
 	}
 	html,
 	body {
@@ -57,12 +58,12 @@ body .overlay {
 }
 @media (min-width: 481px) and (max-width: 710px) {
 	.box {
-		max-width: 480px !important;
+		max-width: 90vw;
 	}
 }
 @media (min-width: 711px) and (max-width: 768px) {
 	.box {
-		max-width: 680px;
+		max-width: 90vw;
 	}
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -81,4 +82,4 @@ body .overlay {
 	.box {
 		max-width: 780px;
 	}
-}
+} */

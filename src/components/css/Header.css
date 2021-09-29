@@ -164,7 +164,8 @@
 		display: flex;
 	}
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 920px),
+	(min-width: 481px) and (max-width: 768px) {
 	.header.box {
 		padding: 25px 0;
 		margin-bottom: 2rem;

@@ -86,3 +86,19 @@
 		font-size: 16px;
 	}
 }
+@media (min-width: 768px) and (max-width: 920px) {
+	.home__box .home__box_img img {
+		width: 70%;
+	}
+	.home__box .home__box_img {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+	.home__box_text-content p {
+		display: none;
+	}
+	.home__button {
+		margin-top: 2rem;
+	}
+}

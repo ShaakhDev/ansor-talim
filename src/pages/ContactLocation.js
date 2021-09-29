@@ -18,8 +18,6 @@ export default function ContactLocation() {
         )
     }
 
-
-
     return (
         <section className="contact-location" id="contact-location">
             <div className="contact-location__box box">

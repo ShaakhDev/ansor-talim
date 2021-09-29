@@ -148,6 +148,13 @@ export const TeachersData = [
         img: Tutor3,
         speciality: "Mental arifmetika o'qituvchisi",
         about: "8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirdlariga ega"
+    },
+    {
+        id: 4,
+        name: "Mo'minov Otabek",
+        img: Tutor1,
+        speciality: "Matematika fani o'qituvchisi",
+        about: "8 yillik tajribaga ega ustozimiz, 2013-yilda Magistraturani tamomlagan. Hozirda 50 dan ortiq shogirdlariga ega"
     }
 ]
 
@@ -166,13 +173,19 @@ export const CommentsData = [
         img: Comment2,
         name: "Mirvohid Saidahmatov",
         speciality: "Senior frontend dasturchi",
-        comment: "Facilisis a lectus augue sit. Placerat bibendum amet quis elementum,netus. Ut sit proin cras pharetra. Nunc proin et."
+        comment: "Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus."
     }, {
         id: 3,
         img: Comment3,
         name: "Azam Muhammadyor",
         speciality: "Senior frontend dasturchi",
-        comment: "Cursus odio dapibus mauris nibh. Ultricies non in commodo ornare tellus diam. Nunc mi non ac morbi magnis tincidunt."
+        comment: "Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus."
+    }, {
+        id: 4,
+        img: Comment2,
+        name: "Mirvohid Saidahmatov",
+        speciality: "Senior frontend dasturchi",
+        comment: "Nibh lectus quisque pellentesque lacus. Et lectus diam facilisis etiam sagittis. Arcu mauris s leo ut. Faucibus."
     }
 ]
 

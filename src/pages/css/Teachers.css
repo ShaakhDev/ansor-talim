@@ -12,12 +12,12 @@
 .teachers .teachers__box .swiper-container {
 	width: 100%;
 }
-.teachers .teachers__box .teachers__row {
+.teachers .teachers__box {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
-.teachers__row .ruler .card__tutor-img {
+/* .ruler .card__tutor-img {
 	width: 140px;
 	height: 140px;
 	position: absolute;
@@ -25,7 +25,7 @@
 	z-index: 99;
 	align-self: center;
 }
-.teachers__row .ruler {
+.ruler {
 	width: 100%;
 	height: 70px;
 	position: absolute;
@@ -33,32 +33,23 @@
 	left: 0;
 	display: flex;
 	justify-content: center;
-}
-.teachers__row .card .tutor__name {
+} */
+.teachers__box .card .tutor__name {
 	margin-top: 70px;
 }
-.teachers__row .card__tutor-img img {
+.teachers__box .card .card__tutor-img img {
 	width: 100%;
 	height: 100%;
 }
-.teachers__row .card__tutor-img::after {
-	content: "";
-	position: absolute;
-	width: 140px;
-	height: 63px;
-	border-bottom-right-radius: 75px;
-	border-bottom-left-radius: 75px;
-	border-top: 0;
-	background: rgb(246, 243, 247);
-	border: 7px solid rgb(246, 243, 247);
-	bottom: -7px;
-	left: -7px;
-	z-index: -2;
-}
 
-.teachers .teachers__box .teachers__row .card {
-	width: 32%;
-	background: #fff;
+.teachers .teachers__box .card {
+	width: 100%;
+	background: radial-gradient(
+		circle at 50% 0,
+		transparent 77px,
+		rgb(255, 255, 255) 0,
+		rgb(255, 255, 255) 100%
+	);
 	border-radius: 10px;
 	padding: 0 1rem 1rem;
 	display: flex;
@@ -67,12 +58,12 @@
 	text-align: center;
 	margin-bottom: 2.5rem;
 }
-.teachers .teachers__box .teachers__row .card:hover {
+.teachers .teachers__box .card:hover {
 	-webkit-box-shadow: 0px 14px 32px -13px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px 14px 32px -13px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px 14px 32px -13px rgba(0, 0, 0, 0.25);
 }
-.teachers__row .card .about__tutor {
+.card .about__tutor {
 	color: #000;
 	font-size: 19px;
 }
@@ -90,7 +81,7 @@
 	display: none;
 }
 @media screen and (max-width: 350px) {
-	.teachers .teachers__box .teachers__row .card {
+	.teachers .teachers__box .card {
 		width: 100%;
 	}
 	.teachers__box .teachers__box-heading {
@@ -98,18 +89,17 @@
 	}
 }
 @media (min-width: 351px) and (max-width: 480px) {
-	.teachers .teachers__box .teachers__row .card {
-		width: 100%;
-	}
 	.teachers__box .teachers__box-heading {
 		padding-top: 3rem;
 	}
 }
-@media (min-width: 481px) and (max-width: 768px) {
-	.teachers .teachers__box .teachers__row .card {
-		width: 47%;
-	}
-	.teachers__row .card .about__tutor {
-		font-size: 16px;
+@media (min-width: 800px) and (max-width: 949px) {
+	.teachers__box .card {
+		min-height: 390px;
 	}
 }
+/* @media (min-width: 481px) and (max-width: 768px) {
+	.card .about__tutor {
+		font-size: 16px;
+	}
+} */
