@@ -74,6 +74,7 @@
 		position: absolute;
 		right: 0;
 		z-index: 10;
+		font-size: 24px;
 	}
 	.navbar__nav-items {
 		display: flex;
@@ -176,11 +177,14 @@
 		height: 52px;
 		align-items: center;
 	}
+	.navbar {
+		position: relative;
+	}
 	.navbar__menu-icon {
 		display: block;
 		color: #043353;
 		position: absolute;
-		right: 25px;
+		right: 0;
 		z-index: 10;
 	}
 	.navbar__nav-items {

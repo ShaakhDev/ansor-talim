@@ -16,7 +16,7 @@ export default function Contact() {
                         </div>
                         <div className="form-content__email">
                             <label htmlFor="email">Telefon nomer yoki Emailingizni kiriting</label> <br />
-                            <input type="text" name="email" placeholder="Telefon / Email" required />
+                            <input type="mail" name="email" placeholder="Telefon / Email" required />
                         </div>
                         <button className="button contact__button" type="submit">Yuborish</button>
                     </form>

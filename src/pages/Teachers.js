@@ -1,12 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+import SwiperCore, { Autoplay, Pagination } from 'swiper';
 import { TeachersData } from '../services/FetchData';
 import "swiper/swiper-bundle.min.css";
 import "./css/Teachers.css";
 
 export default function Teachers() {
-    SwiperCore.use([Autoplay, Pagination, Navigation]);
+    SwiperCore.use([Autoplay, Pagination]);
 
 
 
@@ -49,7 +49,7 @@ export default function Teachers() {
                 }} pagination={{
 
                     "clickable": true
-                }} navigation={true} className="mySwiper">
+                }} className="mySwiper">
                     <SwiperSlide><TeachersCardRow /></SwiperSlide>
                     <SwiperSlide><TeachersCardRow /></SwiperSlide>
                     <SwiperSlide><TeachersCardRow /></SwiperSlide>
